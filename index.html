@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript DOM Manipulation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 id="mainHeading">Welcome to My Interactive Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="description">Click the buttons below to interact with the page using JavaScript.</p>
+      <button onclick="changeText()">Change Text</button>
+      <button onclick="changeStyle()">Change Style</button>
+      <button onclick="toggleElement()">Add/Remove Box</button>
+    </section>
+
+    <article id="contentBox" style="display: none;">
+      <p>This box appears and disappears with a button click.</p>
+    </article>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 My First JavaScript Page</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
